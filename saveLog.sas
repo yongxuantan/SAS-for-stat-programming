@@ -14,5 +14,5 @@ RUN;
 
 * load program and run;
 %include "&dir.\&name..sas";
-
+ 
 %mend saveLog;
