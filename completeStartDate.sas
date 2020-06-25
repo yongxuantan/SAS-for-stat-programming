@@ -1,0 +1,10 @@
+* macro to populate missing portion of a starting date ;
+* for missing month and day, set to Jan 1st, for missing day, set to 1st ;
+* invar: the source date variable ;
+* outvar: the output date variable ;
+%macro completeStartDate(invar,outvar);
+	if length(strip(&invar))>10 then &outvar.=substr(strip(&invar),1,10);
+	else if length(strip(&invar))=4 then &outvar.=substr(strip(&invar),1,4) || "-01-01";
+	else if length(strip(&invar))=7 then &outvar.=substr(strip(&invar),1,7) || "-01";
+	else &outvar.=strip(&invar);
+%mend completeStartDate;
