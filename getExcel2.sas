@@ -7,5 +7,5 @@ proc import out=&ds. datafile = "&path"
 	sheet="&ds";
 	getnames=yes;
 	mixed=yes;
-run;
+run; 
 %mend getExcel2;
