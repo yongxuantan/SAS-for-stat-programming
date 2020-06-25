@@ -1,4 +1,4 @@
-* macro to populate missing portion of an ending date ;
+* macro to populate missing portion of an end date ;
 * for missing month and day, set to Dec 31st, for missing day, set to last day of the month ;
 * invar: the source date variable ;
 * outvar: the output date variable ;
