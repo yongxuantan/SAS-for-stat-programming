@@ -83,6 +83,6 @@ data &out;
 	%textType(vartype, type);
 
 	keep VARIABLE LABEL TYPE;
-run;
+run; 
 
 %mend getVarType;
