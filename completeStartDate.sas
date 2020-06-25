@@ -1,4 +1,4 @@
-* macro to populate missing portion of a starting date ;
+* macro to populate missing portion of a start date ;
 * for missing month and day, set to Jan 1st, for missing day, set to 1st ;
 * invar: the source date variable ;
 * outvar: the output date variable ;
