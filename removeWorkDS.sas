@@ -4,6 +4,6 @@
 %if %length(&dslist)>0 %then %do;
 	proc datasets lib=work memtype=data nolist;
 		delete &dslist;
-	quit;
+	quit; 
 %end;
 %mend removeWorkDS;
