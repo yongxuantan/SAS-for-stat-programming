@@ -1,4 +1,4 @@
-* macro that create "sysTime" macro variable with system date in hh:mm:ss format ;
+* macro that create "sysTime" macro variable with system time in hh:mm:ss format ;
 %macro sysTime(fmt=time8.); 
    %global sysTime;
    data _null_;
