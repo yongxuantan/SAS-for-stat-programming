@@ -2,6 +2,6 @@
 * invar: the source date variable ;
 * outvar: the output date variable ;
 * day: number of days to offset by ;
-%macro offset-days(invar,outvar,day);
+%macro offset-days(invar,outvar,day); 
 	&outvar = put(intnx('day',input(&invar,yymmdd10.),&day),yymmdd10.);
 %mend offset-days;
