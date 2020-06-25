@@ -38,5 +38,5 @@ else if prxmatch("/[^a-zA-Z]/",&source) then do;
 	end;
 	else &vartype=10;
 end;
-else &vartype=999;         
+else &vartype=999;        
 %mend dataTypeNum;
