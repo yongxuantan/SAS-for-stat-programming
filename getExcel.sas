@@ -17,6 +17,6 @@ libname tmpExcel xlsx "&path";
 	%PUT WARNING: &sheet. is not in &path.;
 	data &out;
 	run;
-%end;
+%end; 
 
 %mend getExcel;
