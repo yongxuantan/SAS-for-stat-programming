@@ -16,5 +16,5 @@
  
     %let rc = %sysfunc(close(&dsid));
     %if &result=1 %then 1;
-	%else 0;
+	%else 0; 
 %mend varCheck;
