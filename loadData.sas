@@ -24,6 +24,6 @@
 	%else %do;
 		data &out;
 	%end;
-			set &ds;
+		    set &ds;
 		run;
 %mend loadData;
