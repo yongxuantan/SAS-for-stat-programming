@@ -15,5 +15,5 @@
 
 %if &result=0 %then 0;
 %else 1;
-
+ 
 %mend checkDir;
