@@ -40,5 +40,5 @@ data &outds(drop=i numword word tempvarx tempvary);
 	* assign original variables to temporary variables ;
 	&varx = strip(tempvarx);
 	&vary = strip(tempvary);
-run;
+run; 
 %mend remove_common_test;
