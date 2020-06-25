@@ -5,5 +5,5 @@
     proc sql;
     drop table &tmpData;
     quit;
-%end;
+%end; 
 %mend;
