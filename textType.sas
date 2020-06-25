@@ -20,5 +20,5 @@ else if &source=9 then &outvar="incompleteDatetime";
 else if &source=10 then &outvar="text";
 else if &source=30 then &outvar="float";
 else if &source=35 then &outvar="integer";
-else &outvar="text";                              * default ;
+else &outvar="text";                             * default ;
 %mend textType;
